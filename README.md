@@ -52,15 +52,9 @@ volume 1
 ```
 
 ## StarCraft 2
-1. Choose your Texture quality which you prefer more.
+1. Set all graphics quality to LOW then exit StarCraft
 
-2. Set Graphics Quality to Low (i.e. everything to low)
-
-3. Find your variables.txt, located here / Documents / StarCraft II / .. and backup them, if you will want to return to old settings.
-
-4. lose the StarCraft 2 game, if it's launched.
-
-5. Copypaste the following code to the end of your original variables.txt:
+2. Documents / StarCraft II / variables.txt :
 
 ```
 antialias=0
@@ -95,4 +89,3 @@ textureBasedFOW=1
 use20shaders=0
 useLowqualitymodels=0
 ```
-## 
