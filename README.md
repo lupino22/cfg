@@ -1,5 +1,20 @@
+# Assets
+## Playlist (Youtube - npl)
+ps: just for gaming background
+
+OLD_DANK: https://www.youtube.com/playlist?list=PLqdCKPVUA-7DoMg0hHJvAMzvU6Dwsj7bb
+
+DEF: https://www.youtube.com/playlist?list=PLqdCKPVUA-7DYygSLOB9r5c7r4D5Zcuyk
+
+RECHAREGE: https://www.youtube.com/playlist?list=PLqdCKPVUA-7AZEUh6Nj8vBiobvrKj-S7e
+
+INFINITY: https://www.youtube.com/playlist?list=PLqdCKPVUA-7AobL-Pjh-J8J5oWEDZKNkW
+
+ROCKISH: https://www.youtube.com/playlist?list=PLqdCKPVUA-7CQDbrkaeoXxcM1v7KGBfu5
+
+
 # Configure
-## Dota 2
+## Dota 2 (Quickplay)
 ```
 dota_ability_quick_cast 1
 bind "q" "dota_ability_quickcast 0"
@@ -35,7 +50,7 @@ dota_player_multipler_orders 1 //By setting this to 1, you will issue an order t
 //                               units by holding down the CTRL key when you click.
 ```
 
-## StarCraft 2
+## StarCraft 2 (Hybrid settings via TeamLiquid)
 1. Set all graphics quality to LOW then exit StarCraft
 
 2. Documents / StarCraft II / variables.txt :
