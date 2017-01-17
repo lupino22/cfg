@@ -1,6 +1,7 @@
 # Competitve Programming
 ## Sublime Text 3 (c++)
 Create ``input.io`` file as INPUT in same directory with source code. OUTPUT will be printed in shell.
+Build system: 
 ```
 {
 	"cmd": ["g++ ${file} && xterm -hold -e \"./a.out < input.io\""], 
@@ -8,6 +9,20 @@ Create ``input.io`` file as INPUT in same directory with source code. OUTPUT wil
 	"working_dir": "${file_path}",
 	"selector": "source.c++",
 	"shell": true
+}
+```
+User settings:
+```
+{
+	"auto_complete": false,
+	"auto_indent": false,
+	"auto_match_enabled": false,
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"font_face": "Roboto Mono Medium",
+	"font_size": 10,
+	"ui_seperator": true,
+	"ui_fix_tab_labels": true,
+	"ui_font_size_small": true
 }
 ```
 
