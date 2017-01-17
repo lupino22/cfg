@@ -1,5 +1,5 @@
 # Competitve Programming
-## SublimeText (C++)
+## Sublime Text 3 (c++)
 Create ``input.io`` file as INPUT in same directory with source code. OUTPUT will be printed in shell.
 ```
 {
