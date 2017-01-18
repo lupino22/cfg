@@ -1,6 +1,6 @@
 # Competitve Programming
 ## Sublime Text 3 (c++)
-Create ``input.io`` file as INPUT in same directory with source code. OUTPUT will be printed in shell.
+``input.io`` нэртэй файлыг эх кодны байгаа газарт үүсгэж, бодлогийн ОРОЛТ-г оруулж өгнө. Build + compile үйлдэл хамт хийгдэх учраас гараас Ctrl+B дарахад хангалттай. ГАРАЛТ терминал цонх нээгдэж, гарна.
 
 Build system: 
 ```
@@ -13,6 +13,8 @@ Build system:
 }
 ```
 User settings:
+
+Автоматаар ```{}, [], (), ""``` гэх мэт хаалтууд хаагддаг байх нь өрсөлдөөнт програмчлалд код бичих хурдийг удаашруулдаг. Учир нь хаалтыг нээсний даараа автоматаар хаагдаж дараа нь баруун/зүүн сумаар хаалтруу буцаж орох хэрэгтэй болдог. Арван хурууны зөв байрлалтай бичиж байх үед баруун гар суман дээр хүрдэггүй иймд ```auto_complete, auto_indent, auto_match``` ийг "false" болгосон. 
 ```
 {
 	"auto_complete": false,
@@ -29,8 +31,8 @@ User settings:
 
 # Competitive Gaming
 ## StarCraft 2 
-1. Set all graphics quality to LOW then exit StarCraft
-2. Edit ``Documents/StarCraft II/variables.txt`` :
+1. StarCraft 2-н графикийн бүх тохиргоог LOW (хамгийн бага) болож өөрчлөөд тоглоомыг хаана.
+2. ``Documents/StarCraft II/variables.txt`` файлыг доорхи тохиргоогоор дарж хуулна.
 
 ```
 antialias=0
@@ -68,7 +70,7 @@ useLowqualitymodels=0
 
 
 ## Dota 2 (Quickplay)
-Use Dota 2 console
+Dota 2 консол ашиглана
 ```
 dota_ability_quick_cast 1
 bind "q" "dota_ability_quickcast 0"
