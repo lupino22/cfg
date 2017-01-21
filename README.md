@@ -37,6 +37,7 @@ User settings:
 2. ``Documents/StarCraft II/variables.txt`` файлыг доорхи тохиргоогоор дарж хуулна.
 
 ```
+accountCountry=MNG
 antialias=0
 bakeTerrainLighting=0
 creeptrans=1
@@ -68,6 +69,7 @@ splatlod=1
 textureBasedFOW=1
 use20shaders=0
 useLowqualitymodels=0
+vsync=0
 ```
 
 
