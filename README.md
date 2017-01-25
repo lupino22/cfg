@@ -5,7 +5,7 @@
 PS: Файлаас унших, файлруу бичих код нэмж бичих шаардлагагүй standart input/output ашиглахад болно. Мөн хязгааргүй давталтанд орсон тохиолдолт xterm цонхыг ``xkill``-р устгаж болно.
 
 Build system: 
-```
+```json
 {
 	//"cmd": ["g++ ${file} && xterm -hold -e \"./a.out < input.io > output.io\""], /*Хэт их гаралттай үед*/
 	"cmd": ["g++ ${file} && xterm -hold -e \"./a.out < input.io\""], 
@@ -18,7 +18,7 @@ Build system:
 User settings:
 
 ``auto_complete, auto_match`` нь автоматаар ```{}, [], (), ""``` гэх мэт хаалтууд хаагддаг тохиргоог удирдана. 
-```
+```json
 {
 	"auto_complete": false,
 	"auto_indent": true,
