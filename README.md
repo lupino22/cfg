@@ -7,6 +7,7 @@ PS: Файлаас унших, файлруу бичих код нэмж бич�
 Build system: 
 ```
 {
+	//"cmd": ["g++ ${file} && xterm -hold -e \"./a.out < input.io > output.io\""], /*Хэт их гаралттай үед*/
 	"cmd": ["g++ ${file} && xterm -hold -e \"./a.out < input.io\""], 
 	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
 	"working_dir": "${file_path}",
